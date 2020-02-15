@@ -1,5 +1,12 @@
+import math
+import os
 import sys
-from bs4 import BeautifulSoup
-import requests
 
-print(sys.copyright)
+import requests
+from bs4 import BeautifulSoup
+
+r = requests.get
+
+print('test')
+
+print(sys.executable)
