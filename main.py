@@ -5,8 +5,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 
-r = requests.get
+r = requests.get("https://www.google.com/")
 
-print('test')
-
+print(r.status_code)
 print(sys.executable)
